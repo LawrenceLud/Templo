@@ -461,8 +461,8 @@ Library v0.36 [
 ]
 ]]
 local library = {
-	Version = "0.36",
-	WorkspaceName = "Pepsi Lib",
+	Version = "",
+	WorkspaceName = "",
 	flags = {},
 	signals = {},
 	objects = {},
@@ -7352,9 +7352,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://5191098772",
+			Placeholder = "rbxassetid://5183585504",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://5191098772",
+			Value = "rbxassetid://5183585504",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
