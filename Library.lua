@@ -7320,8 +7320,8 @@ function library:CreateWindow(options, ...)
 			Side = "right"
 		})
 		local settingssection = designer:CreateSection({
-			Name = "Settings",
-			Side = "right"
+			Name = "",
+			Side = ""
 		})
 		local designerelements = {}
 		library.designerelements = designerelements
