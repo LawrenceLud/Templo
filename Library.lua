@@ -1870,7 +1870,7 @@ do
 			Bar.Size = UDim2.new(0, 3, 1, 0)
 			Close.AnchorPoint = Vector2.new(1, 0.5)
 			Close.BackgroundTransparency = 1
-			Close.Image = "rbxassetid://5492252477"
+			Close.Image = "rbxassetid://"
 			Close.ImageColor3 = library.colors.elementText
 			colored[1 + #colored] = {Close, "ImageColor3", "elementText"}
 			Close.Name = "Close"
@@ -2091,7 +2091,7 @@ function library:CreateWindow(options, ...)
 	tabsHolder.BorderSizePixel = 0
 	tabsHolder.Position = UDim2.fromOffset(1, 1)
 	tabsHolder.Size = UDim2.new(1, -2, 0, 23)
-	tabsHolder.Image = "rbxassetid://2454009026"
+	tabsHolder.Image = "rbxassetid://"
 	tabsHolder.ImageColor3 = library.colors.bottomGradient
 	colored[1 + #colored] = {tabsHolder, "ImageColor3", "bottomGradient"}
 	tabHolderList.Name = "tabHolderList"
