@@ -7319,10 +7319,6 @@ function library:CreateWindow(options, ...)
 			Name = "Profiles",
 			Side = "right"
 		})
-		local settingssection = designer:CreateSection({
-			Name = "",
-			Side = ""
-		})
 		local designerelements = {}
 		library.designerelements = designerelements
 		for _, v in next, {{"Main", "main"}, {"Background", "background"}, {"Outer Border", "outerBorder"}, {"Inner Border", "innerBorder"}, {"Top Gradient", "topGradient"}, {"Bottom Gradient", "bottomGradient"}, {"Section Background", "sectionBackground"}, {"Section", "section"}, {"Element Text", "elementText"}, {"Other Element Text", "otherElementText"}, {"Tab Text", "tabText"}, {"Element Border", "elementBorder"}, {"Selected Option", "selectedOption"}, {"Unselected Option", "unselectedOption"}, {"Hovered Option Top", "hoveredOptionTop"}, {"Unhovered Option Top", "unhoveredOptionTop"}, {"Hovered Option Bottom", "hoveredOptionBottom"}, {"Unhovered Option Bottom", "unhoveredOptionBottom"}} do
@@ -7352,9 +7348,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://5183585504",
+			Placeholder = "rbxassetid://",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://5183585504",
+			Value = "rbxassetid://",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
