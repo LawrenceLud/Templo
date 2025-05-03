@@ -2471,7 +2471,7 @@ function library:CreateWindow(options, ...)
 				toggle.Position = UDim2.fromScale(0.0308237672, 0.165842205)
 				toggle.Selectable = true
 				toggle.Size = UDim2.fromOffset(12, 12)
-				toggle.Image = "rbxassetid://2454009026"
+				toggle.Image = "rbxassetid://"
 				toggle.ImageColor3 = library.colors.bottomGradient
 				local colored_toggle_ImageColor3 = {toggle, "ImageColor3", "bottomGradient"}
 				colored[1 + #colored] = colored_toggle_ImageColor3
@@ -3097,7 +3097,7 @@ function library:CreateWindow(options, ...)
 					button.Position = UDim2.new(0.031, offset, 0.166)
 					button.Selectable = true
 					button.Size = UDim2.fromOffset(28, 18)
-					button.Image = "rbxassetid://2454009026"
+					button.Image = "rbxassetid://"
 					button.ImageColor3 = library.colors.bottomGradient
 					local colored_button_ImageColor3 = {button, "ImageColor3", "bottomGradient"}
 					colored[1 + #colored] = colored_button_ImageColor3
